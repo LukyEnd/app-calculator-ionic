@@ -1,0 +1,7 @@
+{
+  "name": "myAppCalculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

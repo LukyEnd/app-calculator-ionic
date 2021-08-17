@@ -1,0 +1,118 @@
+ion-title {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+body {
+  background-color: #f1f1ee;
+  background-image: url(../imagens/fundo.jpg);
+  background-size: 100%;
+}
+
+ion-col {
+  width: 10%;
+}
+
+// Resultados
+.kz-input-text {
+  border: 2px solid #ccccce; //Margem
+  border-radius: 20px;
+  color: #222230;
+  display: block;
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 0px; //cima
+  width: 90%;
+  margin-left: 15px; //distancia do C
+}
+
+// Toda Calculadora
+.tela {
+  color: #050597;
+  display: block;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  margin-left: -110px;
+  margin-top: -40px;
+}
+
+// Todos os Botões
+.btn-operations {
+  border-radius: 30px; //Botoes Arredondados
+  display: block;
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px; //Altura do Botão
+  width: 70px; //Largura do botao
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  margin: 4px;
+
+  //Cores Padrão
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+
+  /* foco */
+  outline: none;
+  box-shadow: none;
+}
+
+// CORES dos Botoes de Operações
+#btnDivision,
+#btnMultiplication,
+#btnSubtraction,
+#btnSum,
+#btnPonto {
+  border-color: #eb9b48;
+  background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  color: #333;
+  text-shadow: 0px 1px 0px #ffee66;
+  font-family: "fantasy";
+  font-size: 25px;
+}
+
+#btnCalculate {
+  border-color: #68b465;
+  background: linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+  box-shadow: inset 0px 1px 0px 0px #e3f1e3;
+  color: #fff;
+}
+
+// #btnCalculate,
+// #btn0 {
+//   width: 250px;
+// }
+
+// #btnPonto {
+//   border-color: #c52540;
+//   background: linear-gradient(to bottom, #f5558a 5%, #f5558a 100%);
+//   box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+//   color: #fff;
+// }
+
+//Ao Clicar (focus)
+// #btnDivision:focus,
+// #btnMultiplication:focus,
+// #btnSubtraction:focus,
+// #btnSum:focus {
+//   color: #20e9e9;
+// }
+// .btn-operations:focus {
+//   color: rgb(13, 47, 196);
+// }
+// #btnPonto:focus {
+//   color: #131801;
+// }
+// #btnCalculate:focus {
+//   color: #72af0e;
+// }
